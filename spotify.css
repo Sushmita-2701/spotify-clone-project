@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+     background-color: rgb(0, 0, 0);
+     overflow: hidden;
+}
+.main{
+    display: flex; 
+    height: 100vh;
+}
+.sidebar{
+    width: 320px;
+    color: white;
+    background-color: #121212;
+    border-radius: 16px;
+   margin: 3px;
+   
+}
+.main-content {
+     background-color: #121212;
+flex:1;
+    color: aliceblue;
+     border-radius: 16px;
+    overflow: auto;
+    padding:0 20px 0 20px;
+  margin: 3px;
+}
+.music-player{
+   
+    color: white;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    z-index: 100;
+
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    line-height: 32px;
+   
+}
+.nav{
+    background-color: #121212;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 8px 12px;
+}
+.nav-option{
+line-height: 40px;
+opacity: 0.7;
+
+
+}
+.nav-option:hover{
+opacity: 1;
+}
+.nav-option i{
+    font-size: 20px;
+}
+.nav-option a{
+    font-size: 16px;
+    margin: 12px;
+}
+.library{
+
+    background-color: #1f1818;
+    border-radius: 16px;
+    height: 100%;
+margin: 16px;
+padding: 10px 16x;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    font-size: 17px;
+opacity: 0.7;
+  margin-right: 19px;
+  display: flex;
+}
+.icons:hover{
+    opacity: 1;
+   
+}
+.icons i{
+    opacity: 0.7;
+  margin-right: 10px;
+
+}
+.boxs{
+    background-color: #282222;
+    height: 140px;
+    border-radius: 16px;
+    line-height: 34px;
+    padding: 16px;
+    margin-top: 12px;
+}
+.box-1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.box-2{
+    font-size: 15px;
+    line-height: 30px;
+}
+.batch{
+    background-color: rgb(255, 255, 255);
+    margin: 2px;
+    height: 30px;
+    width: 120px;
+   font-size: 12px;
+    border-radius: 16px;
+   font-weight: 700;
+
+}
+.boxs1{
+    background-color: #282222;
+    height: 100px;
+    border-radius: 16px;
+    line-height: 30px;
+    padding: 16px;
+    margin-top: 16px;
+}
+.box-11{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 700;
+}
+.box-21{
+    font-size: 14px;
+    line-height: 45px;
+}
+.batch1{
+    background-color: rgb(255, 255, 255);
+    margin: 2px;
+    height: 30px;
+    width: 140px;
+   font-size: 12px;
+    border-radius: 16px;
+font-weight: 700;
+}
+.badge{
+    background-color: white;
+    border-radius: 100px;
+    font-weight: 700;
+    width: fit-content;
+    margin-top:4px;
+    margin-bottom: 4px;
+    padding: 8px 14px;
+    height: 2rem;
+     border: none;
+
+
+}
+.dark-badge{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 1px;
+}
+.dark-badge:hover{
+    
+    border: 2px solid white;
+}
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  height: 70px;
+  padding: 0 16px;
+  flex-wrap: wrap; /* allow wrapping on smaller screens */
+}
+
+.stickt-nav-icons {
+  display: flex;
+  gap: 16px;
+  font-size: 1.2rem;
+}
+
+.sticky-nav-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ margin-left: 70%;
+  
+}
+
+.badge, .nav-item {
+  white-space: nowrap;
+}
+
+
+.nav-icons{
+    margin-left: 3px;
+    font-size: 1.3rem;
+}
+
+.badge:hover {
+  background-color: #e5e5e5;
+  cursor: pointer;
+  color: black;
+}
+
+
+.rid{
+    margin-right: 26px;
+}
+
+.greate{
+    margin-left: 50px;
+
+}
+.nav-item{
+    margin-right: 22px;
+}
+#all{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 8px;
+}
+#all button{
+    background-color: #121212;
+    color: rgb(255, 255, 255);
+    border-radius: 30px ;
+    padding: 7px 18px;
+    font-size: 17px;
+    
+}
+#all button:hover{
+    background-color: #c6bcbc;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+
+
+.card{
+    background-color: #232323;
+ width: 160px;
+    border-radius: 8px;
+    padding: 16px;
+    margin-left:30px;
+    margin-top: 20px;
+}
+.card:hover{
+    background-color: #2e2d2d;
+}
+.cards-container {
+    display: flex;
+
+margin-bottom: 20px;
+flex-wrap: wrap;
+}
+
+.card-img{
+    width: 100%;
+  border-radius: 8px;
+}
+.card-title{
+    font-weight: 700;
+   
+    line-height: 40px;
+}
+.card-info{
+    opacity: 0.8;
+    font-size: 0.85rem;
+    
+}
+.footer{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    height: 40%;
+    width: 100%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+
+.music-left{
+    width: 30%;
+    display: flex;
+   align-items: center;
+   margin-left: 16px;
+}
+.music-centre{
+    width: 32%;
+    display: flex;
+margin: 0 auto;
+ justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.music-right{
+    width: 32%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 60px;
+}
+.song{
+    width: 50px;
+    margin:10px;
+}
+.title{
+    margin: 15px;
+}
+.singer{
+    line-height: 19px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+.like{
+  opacity: 0.6;
+font-size: 16px ;
+margin-left: 40px;
+}
+ .likes{
+    margin: 16px;
+    font-size: 18px;
+ }
+ .pause{
+    font-size: 35px;
+
+ }
+ .reverse{
+    font-size: 18px;
+ }
+
+ .next{
+    opacity: 0.7;
+    font-size: 18px;
+ }
+
+ 
